@@ -1564,7 +1564,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #14151c;
+  background: #000000;
   color: #fff;
   font-size: 14px;
   text-align: center;
@@ -1585,11 +1585,7 @@ section {
   font-size: 15;
   font-style: italic;
   padding: 0;
-  margin: 0 0 40px 0;
-}
-
-#footer .social-links {
-  margin: 0 0 40px 0;
+  margin: 10px 0 15px 0;
 }
 
 #footer .social-links a {
@@ -1614,7 +1610,7 @@ section {
 }
 
 #footer .copyright {
-  margin: 0 0 5px 0;
+  margin: 8px 0 8px 0;
 }
 
 #footer .credits {
