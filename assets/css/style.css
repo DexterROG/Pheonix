@@ -81,13 +81,8 @@ h6 {
 /* 
 #header.header-scrolled {
   background: rgb(0, 0, 0);
-<<<<<<< HEAD
 } 
 */
-=======
- 
-}
->>>>>>> ed5e4d65d7132abbbe062c3db1eecd73e783123e
 
 #header .logo h1 {
   font-size: 28px;
@@ -185,7 +180,7 @@ h6 {
 .nav-menu .drop-down ul a:hover,
 .nav-menu .drop-down ul .active > a,
 .nav-menu .drop-down ul li:hover > a {
-  color: #ef6603;
+  color: grey;
   background: none;
 }
 
@@ -588,7 +583,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #ef6603;
+  color: black;
   line-height: 1;
 }
 
@@ -606,17 +601,18 @@ section {
   border-radius: 5px;
   transition: 0.3s;
   line-height: 1;
-  color: #ef6603;
+  color: black;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #ef6603;
+  border: 2px solid black;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #ef6603;
+  background: black;
   color: #fff;
   text-decoration: none;
+  font-size: medium;
 }
 
 /*--------------------------------------------------------------
@@ -649,13 +645,13 @@ section {
 }
 
 .domain .nav-link:hover {
-  color: #ef6603;
+  color: grey;
 }
 
 .domain .nav-link.active {
-  background: #ef6603;
-  color: #fff;
-  border-color: #ef6603;
+  background: white;
+  color: black;
+  border-color: white;
 }
 
 @media (max-width: 768px) {
@@ -696,7 +692,7 @@ section {
 .domain .tab-pane ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #ef6603;
+  color: grey;
 }
 
 .domain .tab-pane p:last-child {
@@ -850,12 +846,12 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #ef6603;
+  color: grey;
 }
 
 .portfolio #portfolio-flters li.filter-active::before,
 .portfolio #portfolio-flters li.filter-active::after {
-  color: #ef6603;
+  color: black;
 }
 
 .portfolio .portfolio-item {
@@ -1038,7 +1034,7 @@ section {
   border-radius: 5px;
   position: relative;
   overflow: hidden;
-  border: 2px solid #ef3a03;
+  border: 2px solid black;
 }
 
 .recruitment h3 {
@@ -1048,7 +1044,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   color: #fff;
-  background: #ef6603;
+  background: black;
 }
 
 /*--------------------------------------------------------------
@@ -1422,11 +1418,11 @@ section {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ddd !important;
+  background-color: black !important;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #ef6603 !important;
+  background-color: grey !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1510,13 +1506,8 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-<<<<<<< HEAD
   background: white;
   color: black;
-=======
-  background: #fff;
-  color: #000;
->>>>>>> ed5e4d65d7132abbbe062c3db1eecd73e783123e
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1528,13 +1519,8 @@ section {
 }
 
 #footer .social-links a:hover {
-<<<<<<< HEAD
   background: white;
   color: black;
-=======
-  background: #000;
-  color: #fff;
->>>>>>> ed5e4d65d7132abbbe062c3db1eecd73e783123e
   text-decoration: none;
 }
 
