@@ -9,11 +9,11 @@ body {
 }
 
 a {
-  color: #ef6603;
+  color: grey;
 }
 
 a:hover {
-  color: #fc4929;
+  color: grey;
   text-decoration: none;
 }
 
@@ -645,8 +645,7 @@ section {
 }
 
 .domain .nav-link:hover {
-  color: #000;
-  background-color: #fff;
+  color: grey;
 }
 
 .domain .nav-link.active {
@@ -1044,7 +1043,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   color: #fff;
-  background: #000;
+  background: rgb(20, 20, 20);
 }
 
 /*--------------------------------------------------------------
@@ -1066,7 +1065,6 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #ef6603;
   font-size: 18px;
   font-weight: 500;
 }
@@ -1081,23 +1079,24 @@ section {
 .faq .faq-list p {
   margin-bottom: 20px;
   font-size: 15px;
+  color: #cda45e;
 }
 
 .faq .faq-list a.collapse {
-  color: #ef6603;
+  color: black;
 }
 
 .faq .faq-list a.collapsed {
-  color: #343a40;
+  color: black;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #ef6603;
+  color: grey;
 }
 
-.faq .faq-list a.collapsed i::before {
+/*.faq .faq-list a.collapsed i::before {
   content: "\eab2" !important;
-}
+} */
 
 /*--------------------------------------------------------------
 # Team
