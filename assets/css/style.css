@@ -538,7 +538,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #0a0a0a;
+  background: #000;
   margin: 4px 10px;
 }
 
@@ -645,13 +645,14 @@ section {
 }
 
 .domain .nav-link:hover {
-  color: grey;
+  color: #000;
+  background-color: #fff;
 }
 
 .domain .nav-link.active {
-  background: white;
-  color: black;
-  border-color: white;
+  background: #fff;
+  color: #000;
+  border-color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -1027,14 +1028,13 @@ section {
 --------------------------------------------------------------*/
 
 .recruitment .box {
-  padding: 20px;
+  padding: 25px;
   background: #fff;
   text-align: center;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
   position: relative;
   overflow: hidden;
-  border: 2px solid black;
 }
 
 .recruitment h3 {
@@ -1044,7 +1044,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   color: #fff;
-  background: black;
+  background: #000;
 }
 
 /*--------------------------------------------------------------
@@ -1138,14 +1138,14 @@ section {
   border-radius: 50px;
   width: 36px;
   height: 36px;
-  background: rgba(239, 102, 3, 0.8);
+  background: rgba(0, 0, 0, 0);
   display: inline-block;
   transition: ease-in-out 0.3s;
   color: #fff;
 }
 
 .team .member .social a:hover {
-  background: #fc8129;
+  background: #000;
 }
 
 .team .member .social i {
@@ -1192,11 +1192,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #ef6603;
+  color: #000;
   float: left;
   width: 44px;
   height: 44px;
-  background: #ffecde;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1227,7 +1227,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #ef6603;
+  background: #000;
   color: #fff;
 }
 
@@ -1306,7 +1306,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #ef6603;
+  background: #000;
   border: 0;
   padding: 10px 24px;
   color: #fff;
