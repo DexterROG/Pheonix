@@ -68,20 +68,21 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 70px;
+  height: 90px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgb(0, 0, 0);
 }
 
 #header.header-transparent {
-  background: transparent;
+  background: white;
 }
 
+/* 
 #header.header-scrolled {
   background: rgb(0, 0, 0);
-}
+} 
+*/
 
 #header .logo h1 {
   font-size: 28px;
@@ -94,14 +95,14 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #fff;
+  color: black;
   text-decoration: none;
 }
 
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 100px;
 }
 
 /*--------------------------------------------------------------
@@ -124,11 +125,11 @@ h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #fff;
+  color: black;
   padding: 5px 15px 7px 15px;
   margin-left: 5px;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 15px;
   border-radius: 50px;
   font-family: "Open Sans", sans-serif;
 }
@@ -136,7 +137,8 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
-  background: #ef6603;
+  background: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -239,7 +241,7 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: black;
 }
 
 .mobile-nav {
@@ -276,7 +278,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #ef6603;
+  color: grey;
   text-decoration: none;
 }
 
@@ -396,13 +398,14 @@ h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #ef6603;
+  border: 2px solid white;
 }
 
 #hero .btn-get-started:hover {
-  background: #ef6603;
-  color: #fff;
+  background: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
+  font-size: medium;
 }
 
 @media (min-width: 1024px) {
@@ -535,7 +538,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #fdcb42;
+  background: #0a0a0a;
   margin: 4px 10px;
 }
 
@@ -1502,8 +1505,8 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #ef6603;
-  color: #fff;
+  background: white;
+  color: black;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1515,8 +1518,8 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #bd5102;
-  color: #fff;
+  background: white;
+  color: black;
   text-decoration: none;
 }
 
