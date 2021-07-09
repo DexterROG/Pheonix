@@ -68,7 +68,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height:80px;
+  height: 80px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -100,13 +100,11 @@ h6 {
 }
 
 #header .logo img {
-
-  max-height:90px;
-
+  max-height: 90px;
 }
 
-#header .logo img:hover{
-  max-height:92px;
+#header .logo img:hover {
+  max-height: 92px;
 }
 
 /*--------------------------------------------------------------
@@ -1454,4 +1452,9 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+#instafeed .col-xs-4 {
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
