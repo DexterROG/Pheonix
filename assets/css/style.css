@@ -953,11 +953,9 @@ section {
   border-radius: 10px;
   position: relative;
   overflow: hidden;
-
 }
 
-.recruitment .box:hover{
-
+.recruitment .box:hover {
   transform: translateY(-10px);
   box-shadow: 0 2px 35px 0 rgba(223, 225, 230, 0.2);
 }
@@ -1241,7 +1239,8 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #fc8129;
+  background: grey;
+  color: #000;
 }
 
 @-webkit-keyframes animate-loading {

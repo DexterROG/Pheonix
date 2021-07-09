@@ -917,13 +917,13 @@
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Ajay Kumar Garg Engineering College, Ghaziabad</p>
               </div>
 
               <div class="email">
                 <i class="icofont-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>phoenix@gmail.com</p>
               </div>
 
               <!--<div class="phone">
@@ -941,22 +941,33 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Enter Your Name" data-rule="minlen:4" data-msg="Please enter your full name" />
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Enter Your Email" data-rule="email" data-msg="Please enter a valid email" />
                   <div class="validate"></div>
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <input type="text" class="form-control" name="phoneNo" id="phoneNo" placeholder="Enter Your Phone No" data-rule="minlen:10" data-msg="Please enter a valid phone number" />
                 <div class="validate"></div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="year" class="form-control" id="year" placeholder="Year" data-rule="required" data-msg="Please enter your year" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="section" class="form-control" name="section" id="email" placeholder="Branch and Section" data-rule="required" data-msg="Please enter your section" />
+                  <div class="validate"></div>
+                </div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <textarea class="form-control" name="message" rows="5" data-rule="" data-msg="Please write something for us" placeholder="Remark (if any)"></textarea>
                 <div class="validate"></div>
               </div>
+
               <div class="mb-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
