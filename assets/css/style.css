@@ -951,20 +951,18 @@ section {
 
 .recruitment .box {
   padding: 25px;
-  background: #fff;
+  background: rgb(255, 255, 255);
   text-align: center;
-  border-radius: 5px;
+  border-radius: 10px;
   position: relative;
   overflow: hidden;
-<<<<<<< HEAD
-  height: 25vw;
-=======
 
 }
 
 .recruitment .box:hover{
-  box-shadow: 4px 4px 4px 4px rgb(255, 255, 255);
->>>>>>> c54eb67d883bb823d8ea98b95cb6242a62ea10b0
+
+  transform: translateY(-10px);
+  box-shadow: 0 2px 35px 0 rgba(223, 225, 230, 0.2);
 }
 
 .recruitment h3 {
@@ -973,6 +971,7 @@ section {
   padding: 30px 15px;
   font-size: 18px;
   font-weight: 600;
+  border-radius: 10px;
   color: #fff;
   background: rgb(20, 20, 20);
 }
