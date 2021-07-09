@@ -940,7 +940,6 @@ section {
   opacity: 1;
 }
 
-
 /*--------------------------------------------------------------
 # Recruitment
 --------------------------------------------------------------*/
@@ -952,15 +951,10 @@ section {
   border-radius: 5px;
   position: relative;
   overflow: hidden;
-<<<<<<< HEAD
-  height: 25vw;
-=======
-
 }
 
-.recruitment .box:hover{
+.recruitment .box:hover {
   box-shadow: 4px 4px 4px 4px rgb(255, 255, 255);
->>>>>>> c54eb67d883bb823d8ea98b95cb6242a62ea10b0
 }
 
 .recruitment h3 {
@@ -1010,12 +1004,11 @@ section {
 }
 
 .faq .faq-list a.collapse {
-  
-  color:GREY;
+  color: GREY;
 }
 
 .faq .faq-list a.collapsed {
-  color:grey;
+  color: grey;
 }
 
 .faq .faq-list a.collapsed:hover {
