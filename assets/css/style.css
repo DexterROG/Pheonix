@@ -944,7 +944,6 @@ section {
   opacity: 1;
 }
 
-
 /*--------------------------------------------------------------
 # Recruitment
 --------------------------------------------------------------*/
@@ -1013,12 +1012,11 @@ section {
 }
 
 .faq .faq-list a.collapse {
-  
-  color:GREY;
+  color: GREY;
 }
 
 .faq .faq-list a.collapsed {
-  color:grey;
+  color: grey;
 }
 
 .faq .faq-list a.collapsed:hover {
