@@ -907,7 +907,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #fd9f5b;
+  color: grey;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -933,7 +933,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-links a:hover {
-  color: #fd9f5b;
+  color: white;
 }
 
 .portfolio .portfolio-item:hover .portfolio-img img {
@@ -956,11 +956,15 @@ section {
   border-radius: 5px;
   position: relative;
   overflow: hidden;
+<<<<<<< HEAD
+  height: 25vw;
+=======
 
 }
 
 .recruitment .box:hover{
   box-shadow: 4px 4px 4px 4px rgb(255, 255, 255);
+>>>>>>> c54eb67d883bb823d8ea98b95cb6242a62ea10b0
 }
 
 .recruitment h3 {
