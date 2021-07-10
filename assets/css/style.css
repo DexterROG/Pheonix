@@ -1042,7 +1042,6 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
-  
 }
 
 .team .member .social {
@@ -1156,24 +1155,24 @@ section {
   color: #fff;
 }
 
-.contact .php-email-form {
+/*.contact .php-email-form {
   width: 100%;
   background: #fff;
-}
+}*/
 
-.contact .php-email-form .form-group {
+.contact .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .validate {
+/*.contact .php-email-form .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
-}
+}*/
 
-.contact .php-email-form .error-message {
+/*.contact .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1220,17 +1219,17 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-}
+} */
 
-.contact .php-email-form input {
+.contact .reg_form input {
   height: 44px;
 }
 
-.contact .php-email-form textarea {
+.contact .reg_form textarea {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .reg_form button[type="submit"] {
   background: #000;
   border: 0;
   padding: 10px 24px;
@@ -1239,7 +1238,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact .reg_form button[type="submit"]:hover {
   background: grey;
   color: #000;
 }

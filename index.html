@@ -1142,49 +1142,69 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+           <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form">-->
+              <form method="post" class="reg_form"  autocomplete="off" name="google-sheet">
               <div class="form-row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Enter Your Name" data-rule="minlen:4" data-msg="Please enter your full name" />
-                  <div class="validate"></div>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Enter Your Name" required />
+                
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Enter Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Enter Your Email" required />
+            
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="phoneNo" id="phoneNo" placeholder="Enter Your Phone No" data-rule="minlen:10" data-msg="Please enter a valid phone number" />
-                <div class="validate"></div>
+                <input type="number" class="form-control" name="phoneNo" id="phoneNo" placeholder="Enter Your Phone No" min="10" max="10" required />
+                
               </div>
               <div class="form-row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="year" class="form-control" id="year" placeholder="Year" data-rule="required" data-msg="Please enter your year" />
-                  <div class="validate"></div>
+                  <input type="text" name="year" class="form-control" id="year" placeholder="Year" required />
+                 
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="section" class="form-control" name="section" id="email" placeholder="Branch and Section" data-rule="required" data-msg="Please enter your section" />
-                  <div class="validate"></div>
+                  <input type="text" class="form-control" name="branch_section" id="section" placeholder="Branch and Section" required />
+                  
                 </div>
               </div>
               <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" data-rule="" data-msg="Please write something for us" placeholder="Remark (if any)"></textarea>
-                <div class="validate"></div>
+                
               </div>
+              <div class="text-center"><button type="submit" value="reset">Register</button></div>
 
-              <div class="mb-3">
+           <!--  <div class="mb-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">You have registered successfully. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Register</button></div>
-            </form>
+                <input type="submit" name="submit" class="btnSubmit btn-block" value="Register" />
+              </div> -->
 
+              
+              
+              
+            </form>          
           </div>
 
         </div>
 
       </div>
+
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyuU3QWvowO6cVjzpKqKBLXed2Cz0Q2UsbFzQL5nmsM8ReR65d_953gXaZcoAoUdkD3/exec'
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => alert("Thanks for Registering..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+        })
+
+        
+    </script>
+     
     </section><!-- End registration Section -->
 
   </main><!-- End #main -->
