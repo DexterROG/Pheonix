@@ -1108,7 +1108,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# Contact
+# Contact or register
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
@@ -1365,7 +1365,6 @@ section {
 
 #footer p {
   font-size: 15;
-  font-style: italic;
   padding: 0;
   margin: 10px 0 15px 0;
 }
